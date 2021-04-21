@@ -1,13 +1,19 @@
+import React, {FunctionComponent, ReactElement} from 'react';
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = 'Your Name'
+
+const name = 'Sangrok Park'
 export const siteTitle = 'Next.js Sample Website'
 
-export default function Layout({ children, home }) {
+type layoutType = {
+  home?: boolean
+}
+
+const Layout:React.FC<layoutType> = ({ children, home }) => {
   return (
     <div className={styles.container}>
       <Head>
@@ -71,3 +77,5 @@ export default function Layout({ children, home }) {
     </div>
   )
 }
+
+export default Layout;
