@@ -1,10 +1,10 @@
-import React, {FunctionComponent, ReactElement} from 'react';
+import React from 'react';
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
-
+ 
 
 const name = 'Sangrok Park'
 export const siteTitle = 'Next.js Sample Website'
@@ -17,7 +17,8 @@ const Layout:React.FC<layoutType> = ({ children, home }) => {
   return (
     <div className={styles.container}>
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="../public/favicon.ico" />
+        <title>Next Blog</title>
         <meta
           name="description"
           content="Learn how to build a personal website using Next.js"

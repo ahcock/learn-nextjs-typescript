@@ -19,8 +19,6 @@ E
 pages/index.tsx,b/3/b3357635c26d1b52053382ce7e8a8640d31fedc8
 F
 posts/pre-rendering.md,e/0/e0d14f3176c7848454ab188f69752c2ec9a66a55
-A
-lib/tsconfig.json,2/e/2e87ef86d1349e23a672a41a7f65723158d30b11
 @
 posts/ssg-ssr.md,c/3/c36e60e2e96afe9c2b696b41465f6721005210dd
 D
